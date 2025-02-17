@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin : 1rem;
+    background-color: #212121;
+    color: #fff;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.header p{
+    padding: 0.5rem;
+    height: auto;
+    width: auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+li{
+    list-style-type: number;
+    margin: 1rem;
+}
+
+.innerList{
+    list-style-type: circle;
+    margin: 0rem;
+    margin-left: 2rem;
+}
+
+button{
+    height: fit-content;
+    width: fit-content;
+    padding: 0.25rem;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+
+}
